@@ -50,23 +50,51 @@
     color: #FFE8D6;
 }
 
-.imagem-banner{
+.imagem-banner {
     width: 100%;
     border-bottom: 3px solid #000000;
 }
 
-.titulo-cardapio{
+.titulo-cardapio,
+.titulo-galeria {
     margin-top: 50px;
     font-family: 'Cookie';
     font-weight: normal;
     font-size: 45px;
-    color: #CB997E;
+    color: #000000;
     text-align: center;
 }
 
-.lista-cardapio{
+.lista-cardapio {
     column-count: 4;
     padding: 68px;
     font-family: 'Roboto';
     color: #6B705C;
+}
+
+.galeria-fotos {
+    background-color: #FDEBAC;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+
+.titulo-galeria {
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.linha-fotos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foto-bolo {
+    border: 5px solid rgb(250, 250, 250);
+    border-radius: 3px;
+}
+
+.foto-bolo:hover {
+    border-color: #000000;
+    cursor: crosshair;
+    transform: scale(1.1);
 }
